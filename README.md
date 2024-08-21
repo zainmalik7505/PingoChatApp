@@ -19,8 +19,7 @@
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/zainmalik7505/Pingo.git
-
+   git clone https://github.com/zainmalik7505/PingoChatApp.git
 
 2. Set up Firebase:
 
