@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct PingoApp: App {
+    
+    init(){
+        FirebaseApp.configure()
+        print("Firebase Configured")
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView(didCompleteProcess: {
+            })
         }
     }
+    
 }
